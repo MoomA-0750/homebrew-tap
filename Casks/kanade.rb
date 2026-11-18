@@ -1,6 +1,6 @@
 cask "kanade" do
-  version "2026.11.18.1621"
-  sha256 "d8518a90178f6cd99345cecbaab17b2da747183aad85e71d57b8434af1289d26"
+  version "2026.11.18.2120"
+  sha256 "7ed687e9f89292ef2fc2623e922e92b4a81f9606712a11b2ce93aac5b7134fd8"
 
   url "https://github.com/MoomA-0750/kanade-ime/releases/download/mac-v#{version}/Kanade-mac-aarch64.pkg"
   name "Kanade"
@@ -36,7 +36,8 @@ cask "kanade" do
   ]
 
   caveats <<~EOS
-    Choose Kanade in the input menu in the menu bar.
+    Log out and log back in, then choose Kanade in the input menu in the menu bar.
+    (macOS reads the list of input sources at login; until then Kanade cannot start.)
     Voice input asks for microphone and Accessibility permission the first time.
   EOS
 end
