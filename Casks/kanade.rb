@@ -1,6 +1,6 @@
 cask "kanade" do
-  version "@VERSION@"
-  sha256 "@SHA256@"
+  version "2026.11.18.1621"
+  sha256 "d8518a90178f6cd99345cecbaab17b2da747183aad85e71d57b8434af1289d26"
 
   url "https://github.com/MoomA-0750/kanade-ime/releases/download/mac-v#{version}/Kanade-mac-aarch64.pkg"
   name "Kanade"
